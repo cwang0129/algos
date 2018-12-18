@@ -14,11 +14,16 @@ class linkedlist:
 
 	def append(self, data):
 		newNode = Node(data)
+		if self.head is None:
+			self.head = newNode
+			return self.head
+		
 		cur = prev = self.head
 		while(cur):
 			prev = cur
 			cur = cur.next
 		prev.next = newNode
+
 
 	def insertAfter(self, prev, data):
 		cur = self.head
