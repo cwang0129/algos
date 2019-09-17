@@ -2,7 +2,11 @@
 
 **Graph**
 ```
-261 Graph Valid Tree    BFS[url]  |  DFS  | Union Find
+
+| LC #  | Name                | Solution  |
+| ------|:-------------------:| ---------:|
+| 261   | Graph Valid Tree    | BFS       |
+
 ```
 
 ## Knowledge Base
